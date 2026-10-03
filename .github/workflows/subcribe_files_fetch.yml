@@ -21,7 +21,7 @@ jobs:
       - name: 拉取订阅文件
         uses: dongchengjie/subscription-fetcher@main
         with:
-          config: https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/config.yaml
+          config: https://raw.githubusercontent.com/xiaobao1980/airport/refs/heads/main/config.yaml
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 提交订阅文件
